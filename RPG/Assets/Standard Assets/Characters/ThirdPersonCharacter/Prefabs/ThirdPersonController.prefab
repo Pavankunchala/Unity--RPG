@@ -1471,6 +1471,7 @@ GameObject:
   - component: {fileID: 13615390}
   - component: {fileID: 11444856}
   - component: {fileID: 11469404}
+  - component: {fileID: 1861885930}
   m_Layer: 0
   m_Name: ThirdPersonController
   m_TagString: Player
@@ -1568,14 +1569,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MovingTurnSpeed: 360
-  m_StationaryTurnSpeed: 180
+  m_MovingTurnSpeed: 3600
+  m_StationaryTurnSpeed: 1800
   m_JumpPower: 6
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 1
-  m_AnimSpeedMultiplier: 1
+  m_MoveSpeedMultiplier: 3
+  m_AnimSpeedMultiplier: 4
   m_GroundCheckDistance: 0.3
+--- !u!114 &1861885930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4017c0f96bfbc4d36ac12be59f5cae3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkMoveStopRadius: 0.2
 --- !u!1 &150244
 GameObject:
   m_ObjectHideFlags: 0
