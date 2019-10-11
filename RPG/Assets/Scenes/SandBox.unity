@@ -329,7 +329,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11469404, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
       propertyPath: m_MoveSpeedMultiplier
-      value: 5.34
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469404, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
+      propertyPath: m_AnimSpeedMultiplier
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
@@ -400,6 +404,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 519272228, guid: f1110a50787fc46319d8908683e7b521, type: 3}
+      propertyPath: questionCursor
+      value: 
+      objectReference: {fileID: 2800000, guid: 9067732cb4558440da0477b972b06a9d, type: 3}
+    - target: {fileID: 519272228, guid: f1110a50787fc46319d8908683e7b521, type: 3}
+      propertyPath: attackCursor
+      value: 
+      objectReference: {fileID: 2800000, guid: 19bb910323b2c44aba4e12adee7ac8e7, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1110a50787fc46319d8908683e7b521, type: 3}
 --- !u!4 &668598584 stripped
