@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.G))
         {
             isIndirectMode = !isIndirectMode; // toggle mode
+
+            currentClickTarget = transform.position; // clear the current  bug
         }
 
         if(isIndirectMode)

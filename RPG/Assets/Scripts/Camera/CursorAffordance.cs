@@ -19,7 +19,7 @@ public class CursorAffordance : MonoBehaviour
 
     // cursor hotspot
     [SerializeField]
-    private Vector2 cursorHotspot = new Vector2(96, 96);
+    private Vector2 cursorHotspot = new Vector2(0, 0);
 
     // Raycaster
 
