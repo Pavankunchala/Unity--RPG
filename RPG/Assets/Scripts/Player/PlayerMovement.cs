@@ -54,10 +54,10 @@ public class PlayerMovement : MonoBehaviour
         float h = CrossPlatformInputManager.GetAxis("Horizontal");
         float v = CrossPlatformInputManager.GetAxis("Vertical");
 
-      Vector3  m_CamForward = Vector3.Scale(Camera.main.transform.forward, new Vector3(1, 0, 1)).normalized;
-       Vector3  m_Move = v * m_CamForward + h * Camera.main.transform.right;
+      Vector3  cameraForward = Vector3.Scale(Camera.main.transform.forward, new Vector3(1, 0, 1)).normalized;
+       Vector3  movement = v * cameraForward + h * Camera.main.transform.right;
 
-        m_Character.Move(m_Move, false, false);
+        m_Character.Move(movement, false, false);
     }
 
     private void MouseMovement()
@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             print("Cursor raycast hit" + cameraRaycaster.hit.collider.gameObject.name.ToString());
-            switch (cameraRaycaster.layerHit)
+            switch (cameraRaycaster.currentLayerHit)
             {
                 case Layer.Walkable:
                     currentClickTarget = cameraRaycaster.hit.point;  // So not set in default case                 

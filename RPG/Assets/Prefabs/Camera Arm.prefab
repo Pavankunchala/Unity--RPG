@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d60b87dcab2481085ab030a812c449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkCursor: {fileID: 2800000, guid: b7610dfe41bf34c57a042a384456c01e, type: 3}
-  attackCursor: {fileID: 2800000, guid: f1da58c57c39f4c3ea12dffa04f36bbd, type: 3}
-  questionCursor: {fileID: 2800000, guid: 1896f60c440954ddf887a919a9962386, type: 3}
-  cursorHotspot: {x: 96, y: 96}
+  walkCursor: {fileID: 2800000, guid: 9889dc7d858654a85813f1139641de4b, type: 3}
+  attackCursor: {fileID: 2800000, guid: 848833a60d5a140939730d21687df83b, type: 3}
+  questionCursor: {fileID: 2800000, guid: 97386dceaadf149cc875b07186ae4417, type: 3}
+  cursorHotspot: {x: 0, y: 0}
