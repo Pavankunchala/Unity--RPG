@@ -111,7 +111,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: c22fe1d432170469f8af73695f904bee, type: 2}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,17 +251,17 @@ PrefabInstance:
     - target: {fileID: 114303246207418346, guid: 833a3cbec60a98b4991b7bfaa00b878f,
         type: 3}
       propertyPath: xRotationsPerMinute
-      value: 3.12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114303246207418346, guid: 833a3cbec60a98b4991b7bfaa00b878f,
         type: 3}
       propertyPath: yRotationsPerMinute
-      value: 3.65
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114303246207418346, guid: 833a3cbec60a98b4991b7bfaa00b878f,
         type: 3}
       propertyPath: zRotationsPerMinute
-      value: 11.09
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 833a3cbec60a98b4991b7bfaa00b878f, type: 3}
@@ -649,6 +649,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048834654874535118, guid: 3dc68e03842bc48da939edcfe562cad5,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048834653492402661, guid: 3dc68e03842bc48da939edcfe562cad5,
+        type: 3}
+      propertyPath: attackRadius
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3dc68e03842bc48da939edcfe562cad5, type: 3}
@@ -1083,6 +1093,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048834654874535118, guid: 3dc68e03842bc48da939edcfe562cad5,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048834653492402661, guid: 3dc68e03842bc48da939edcfe562cad5,
+        type: 3}
+      propertyPath: attackRadius
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3dc68e03842bc48da939edcfe562cad5, type: 3}

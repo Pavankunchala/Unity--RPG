@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Player : MonoBehaviour
 {
+
+    
 
     [SerializeField]
     private float maxHealthPoints = 100f;
@@ -16,6 +19,11 @@ public class Player : MonoBehaviour
             return
                 currentHealthPoints / (float)maxHealthPoints;
         }
+        
+    }
+
+    private void Start()
+    {
         
     }
 }
