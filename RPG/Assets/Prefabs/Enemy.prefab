@@ -634,7 +634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealthPoints: 100
-  attackRadius: 10
+  attackRadius: 4
 --- !u!1 &2048834654859180420
 GameObject:
   m_ObjectHideFlags: 0
