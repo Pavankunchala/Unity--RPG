@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour,IDamagable
 {
 
     
@@ -20,6 +20,11 @@ public class Player : MonoBehaviour
                 currentHealthPoints / (float)maxHealthPoints;
         }
         
+    }
+
+    public void TakeDamage(float damage)
+    {
+        currentHealthPoints = Mathf.Clamp(currentHealthPoints - damage, 0f, maxHealthPoints);
     }
 
     private void Start()

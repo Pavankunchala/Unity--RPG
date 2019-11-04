@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.ThirdPerson;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour,IDamagable
 {
     
     [SerializeField]
@@ -11,12 +11,15 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float attackRadius = 4f;
 
+    [SerializeField]
+    private float chaseRadius = 6f;
+
     private GameObject player;
 
     AICharacterControl aICharacterControl;
 
     private float currentHealthPoints = 100f;
-    public float healthAsPercentage
+    public float healthAsPercentage 
     {
         get
         {
@@ -26,7 +29,10 @@ public class Enemy : MonoBehaviour
 
     }
 
-
+    public void TakeDamage(float damage)
+    {
+        currentHealthPoints = Mathf.Clamp(currentHealthPoints - damage, 0f, maxHealthPoints);
+    }
 
     private void Start()
     {
@@ -39,7 +45,8 @@ public class Enemy : MonoBehaviour
     {
         float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
 
-        if(distanceToPlayer <= attackRadius)
+        // Enemy following playwe
+        if (distanceToPlayer <=chaseRadius)
         {
             aICharacterControl.SetTarget(player.transform);
         }
@@ -47,5 +54,24 @@ public class Enemy : MonoBehaviour
         {
             aICharacterControl.SetTarget(transform);
         }
+
+        if (distanceToPlayer <= attackRadius)
+        {
+            print(gameObject.name+ "Attacking  plaer");
+
+            //spawing projectile
+
+        }
+    }
+
+
+    private void OnDrawGizmos()
+    {
+        //Draw attack sphere
+        Gizmos.color = new Color(255f, 0, 0, .5f);
+        Gizmos.DrawWireSphere(transform.position, attackRadius);
+        //Draw move sphere
+        Gizmos.color = new Color(0f, 0, 0, .5f);
+        Gizmos.DrawWireSphere(transform.position, chaseRadius);
     }
 }

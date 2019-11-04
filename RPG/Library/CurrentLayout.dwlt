@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 618
-  m_MinSize: {x: 683, y: 498}
-  m_MaxSize: {x: 14004, y: 14048}
+  m_MinSize: {x: 679, y: 498}
+  m_MaxSize: {x: 14002, y: 14048}
   vertical: 0
-  controlID: 41
+  controlID: 89
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 374
     height: 618
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 344
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -217,10 +217,10 @@ MonoBehaviour:
     y: 0
     width: 906
     height: 618
-  m_MinSize: {x: 406, y: 498}
+  m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 42
+  controlID: 90
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,10 +242,10 @@ MonoBehaviour:
     y: 0
     width: 906
     height: 344
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
+  m_MinSize: {x: 404, y: 224}
+  m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 129
+  controlID: 91
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -44962
+  m_LastSelectedObjectID: -2528
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -393,20 +393,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/pavankunchala/Downloads/PROJECTS/Unity 3D/Unity-RPG/RPG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 307}
-    m_SelectedIDs: 122d0000
-    m_LastClickedID: 11538
-    m_ExpandedIDs: 00000000d42a0000ca300000ee3200005a3600001a380000403800003c3900001e3a00003c3c0000823e0000744300003a440000e2480000e6490000084a00004a4a00008a4c0000b84c00009c4d0000dc4d00005e4e0000f84e00006e4f0000ae57000000ca9a3b
+    scrollPos: {x: 0, y: 1363}
+    m_SelectedIDs: 2e400000
+    m_LastClickedID: 16430
+    m_ExpandedIDs: 000000005c2b0000c22d0000a2310000ea3300008c3700006a390000903900009e3a0000fa3a0000903b0000ce3d00002e400000664500003c460000304900001e4b00003c4c00005e4c0000a64c0000024f0000324f00001e50000064500000f25000009a51000016520000545b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -434,7 +434,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d42a0000ca300000ee3200005a3600001a380000403800003c3900001e3a00003c3c0000823e0000744300003a440000e2480000e6490000084a00004a4a00008a4c0000b84c00009c4d0000dc4d00005e4e0000f84e00006e4f0000ae570000
+    m_ExpandedIDs: 000000005c2b0000c22d0000a2310000ea3300008c3700006a390000903900009e3a0000903b0000ce3d00002e400000664500003c460000304900001e4b00003c4c00005e4c0000a64c0000024f0000324f00001e50000064500000f25000009a51000016520000545b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -553,9 +553,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d6870100
-      m_LastClickedID: 0
-      m_ExpandedIDs: bef3feff5e50ffffb665ffff4e77ffffc697ffff08a0ffffa4a1ffff38a2ffff3ca2ffff44a2ffff48a2ffff50a2ffff54a2ffff5ca2ffff60a2ffff68a2ffff6ca2ffff74a2ffff78a2ffff7ca2ffff80a2ffff88a2ffff8ca2ffff90a2ffff9ca2ffffa0a2ffffb8a2ffffbca2ffffc4a2ffffc8a2ffffd0a2ffffd4a2ffffdca2ffffe0a2ffffe8a2ffffeca2fffff0a2fffffca2ffff00a3ffff04a3ffff0ca3ffff10a3ffff14a3ffff18a3ffff1ca3ffff20a3ffff2ca3ffff30a3ffff34a3ffff40a3ffff44a3ffff48a3ffff4ca3ffff52a3ffff6ca3fffff6acfffffaacffff02adffff06adffff0eadffff12adffff1aadffff1eadffff26adffff2aadffff32adffff36adffff3aadffff3eadffff46adffff4aadffff4eadffff5aadffff5eadffff76adffff7aadffff82adffff86adffff8eadffff92adffff9aadffff9eadffffa6adffffaaadffffaeadffffbaadffffbeadffffc2adffffcaadffffceadffffd2adffffd6adffffdaadffffdeadffffeaadffffeeadfffff2adfffffeadffff02aeffff06aeffff0aaeffff10aeffff30aeffff0ab6ffff16b6ffff2cccfffff0ceffff34cfffff38cfffff40cfffff44cfffff4ccfffff50cfffff58cfffff5ccfffff64cfffff68cfffff70cfffff74cfffff78cfffff7ccfffff84cfffff88cfffff8ccfffff98cfffff9ccfffffb4cfffffb8cfffffc0cfffffc4cfffffcccfffffd0cfffffd8cfffffdccfffffe4cfffffe8cfffffeccffffff8cffffffccfffff00d0ffff08d0ffff0cd0ffff10d0ffff14d0ffff18d0ffff1cd0ffff28d0ffff2cd0ffff30d0ffff3cd0ffff40d0ffff44d0ffff48d0ffff4ed0ffff70d0ffffc6ddffffcaddffffceddffffdaddffffdeddffffe2ddffffeaddffffeeddfffff2ddfffffaddfffffeddffff02deffff26deffff2adeffff32deffff36deffff3edeffff42deffff4adeffff4edeffff56deffff5adeffff5edeffff62deffff66deffff6adeffff76deffff7adeffff82deffff86deffff8edeffff92deffff9adeffff9edeffffa6deffffaadeffffaedeffffb2deffffb6deffffbadeffffc2deffffc6deffffcadeffffcedeffffd2deffffd6deffffe2deffff00dfffffc4e7ffffd8eaffffecedffffaefbffffd4fbffff
+      m_SelectedIDs: 267fffff
+      m_LastClickedID: -32986
+      m_ExpandedIDs: 0685ffff5090ffff7cb8fffff0c2ffffd2cbffffa4f4ffff98fbffffd4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -611,9 +611,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.75, y: 0.79999995, z: 0}
+    m_Target: {x: -1.34, y: 0.8358874, z: 0}
     speed: 2
-    m_Value: {x: -1.75, y: 0.79999995, z: 0}
+    m_Value: {x: -1.34, y: 0.8358874, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -641,13 +641,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.027798962, y: 0.96145934, z: -0.25216895, w: 0.10599076}
+    m_Target: {x: 0.06736732, y: -0.6386782, z: 0.05628373, w: 0.76445013}
     speed: 2
-    m_Value: {x: 0.027798962, y: 0.96145934, z: -0.25216895, w: 0.10599076}
+    m_Value: {x: 0.06736732, y: -0.6386782, z: 0.05628373, w: 0.76445013}
   m_Size:
-    m_Target: 2.9882767
+    m_Target: 4.507208
     speed: 2
-    m_Value: 2.9882767
+    m_Value: 4.507208
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -686,7 +686,7 @@ MonoBehaviour:
     height: 324
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
@@ -764,4 +764,79 @@ MonoBehaviour:
     y: 419
     width: 904
     height: 254
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12059, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor:UnityEditor.Experimental.TerrainAPI:PaintTextureTool
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Failed to load
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 320
+    height: 550
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12059, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor:UnityEditor.Experimental.TerrainAPI:SetHeightTool
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Failed to load
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 320
+    height: 550
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12059, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor:UnityEditor.Experimental.TerrainAPI:StampTool
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Failed to load
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 320
+    height: 550
   m_PersistentViewDataDictionary: {fileID: 0}
