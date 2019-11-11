@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1059845029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1059845030}
+  m_Layer: 10
+  m_Name: ProjectileSocket
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1059845030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059845029}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.21, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2048834654859111024}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2048834653533930174
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,6 +544,7 @@ Transform:
   - {fileID: 2048834654859041372}
   - {fileID: 2048834654859110654}
   - {fileID: 2048834653533930173}
+  - {fileID: 1059845030}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -634,7 +665,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealthPoints: 100
+  chaseRadius: 6
   attackRadius: 4
+  projectileToUse: {fileID: 869440354621778103, guid: 5cbcfee0a0fd84d3d807ae74bbd0a2b3,
+    type: 3}
+  projectileSocket: {fileID: 1059845029}
+  damagePerShot: 9
+  projectileSpeed: 10
+  timeBetnProjectiles: 1
+  AimOffset: {x: 0, y: 1, z: 0}
 --- !u!1 &2048834654859180420
 GameObject:
   m_ObjectHideFlags: 0

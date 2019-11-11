@@ -44,7 +44,7 @@ public class CursorAffordance : MonoBehaviour
     // Update is called once per frame
     void OnLayerChange(int newLayer)
     {
-        print("Over a new layer");
+        //print("Over a new layer");
         switch(newLayer)
         {
 
